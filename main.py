@@ -1,4 +1,5 @@
 from translate import Translator
 translator= Translator(to_lang="es")
-translation = translator.translate("This is a pen.")
-print (translation)
+while True:
+   translation = translator.translate(input("What do you want to translate?: "))
+   print (translation) 
